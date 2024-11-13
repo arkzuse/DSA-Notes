@@ -1,4 +1,4 @@
-https://codeforces.com/problemset/problem/1808/B
+	https://codeforces.com/problemset/problem/1808/B
 
 # simple method
 Simple method is to use two for loop
@@ -15,7 +15,7 @@ for (int i = 0; i < n; i++) {
 ```
 
 
-# time optimized
+# time optimised
 Sort the array because then left side of elements are smaller than it and right elements greater.
 Calculate prefix sum and suffix sum.
 Then result is sum of $suffix(i) - prefix(i)$.
@@ -23,7 +23,7 @@ Then result is sum of $suffix(i) - prefix(i)$.
 Time complexity: $\Theta(nlogn)$
 Space complexity: $\Theta(n)$
 
-# time and space optimized
+# time and space optimise
 Sorting is still necessary.
 Last element will never be subtracted but will be added $n - 1$ times similarly first element will be subtracted $n - 1$ times but not added, similarly $i$th element will be added $i$ times and subtracted $n - 1 - i$ times.
 

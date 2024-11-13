@@ -2,7 +2,7 @@
 
 If $a \times b = n$ both numbers have to be less than or equal to $\sqrt{n}$ 
 
-In the loop if we go greater than $\sqrt{n}$ 
+In the loop if we go greater than $\sqrt{n}$ then 
 
 
 

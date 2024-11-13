@@ -10,7 +10,7 @@ So largest element is always at first position.
 
 To remove element which is no longer in window we check $dq.peekLast() < l$.
 
-A monotonic decreasing queue can be used because when a new element is introduced then if will not affect answer if it is smaller then largest element, so it can be queued from end. But if new element is larger then it can affect current or upcoming windows.
+A monotonic decreasing queue can be used because when a new element is introduced then it will not affect answer if it is smaller then largest element, so it can be queued from end. But if new element is larger then it can affect current or upcoming windows.
 
 While maintaining monotonicity we can remove elements because element greater then them has come so they will not have effect on window maximum now.  
 
